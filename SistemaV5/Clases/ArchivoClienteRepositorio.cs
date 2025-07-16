@@ -144,7 +144,7 @@ namespace sistemaDeViajesV3.Clases
             // Paso 1: Leer todos los clientes del archivo
             using (StreamReader sr = new StreamReader(_filePath))
             {
-                // Manejo de cabecera (puedes simplificarlo si siempre hay cabecera como discutimos)
+                
                 header = sr.ReadLine();
 
                 string linea;

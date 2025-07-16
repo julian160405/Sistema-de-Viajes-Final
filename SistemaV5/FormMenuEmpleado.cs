@@ -22,11 +22,23 @@ namespace SistemaV5
             empleadologueado = empleado;
         }
 
-        private void btnRegistrarCliente_Click(object sender, EventArgs e)
+        private void btnABMClientes_Click(object sender, EventArgs e)
         {
             FRMClienteABM nuevoform = new FRMClienteABM();
             nuevoform.Show();
             this.Hide();
+        }
+
+        private void btnReservasClientes_Click(object sender, EventArgs e)
+        {
+            FRMReservasClientes nuevoform = new FRMReservasClientes();
+            nuevoform.Show();
+            this.Hide();
+        }
+
+        private void btnRegistrarViaje_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

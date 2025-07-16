@@ -10,5 +10,9 @@ namespace sistemaDeViajesV3.Interfaces
     internal interface IClienteRepositorio
     {
         List<CLSCliente> GetAllClientes();
+        void AddCliente(CLSCliente cliente);
+        void DeleteCliente(int idcliente);
+        void ModificarCliente(CLSCliente clienteModificado);
+
     }
 }

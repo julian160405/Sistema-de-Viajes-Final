@@ -16,13 +16,13 @@
     <Compile Update="FormMisReservas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMisVuelos.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FormReservarVuelo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FRMClienteABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FRMReservasClientes.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

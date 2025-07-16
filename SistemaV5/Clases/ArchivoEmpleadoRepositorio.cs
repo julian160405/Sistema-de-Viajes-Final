@@ -21,9 +21,8 @@ namespace sistemaV4.Clases
             {
                 using (StreamReader sr = new StreamReader(_filePath))
                 {
-                    // VERIFICA ESTO: Si tu archivo tiene una línea de cabecera, DESCOMENTA la siguiente línea.
-                    // Si NO tiene cabecera, MANTENLA COMENTADA.
-                    // sr.ReadLine(); // Saltar la primera línea (cabecera)
+
+                    sr.ReadLine(); // Saltar la primera línea (cabecera)
 
                     string linea;
                     while ((linea = sr.ReadLine()) != null)
@@ -31,7 +30,7 @@ namespace sistemaV4.Clases
                         if (string.IsNullOrWhiteSpace(linea)) continue;
 
                         string[] vec = linea.Split(';');
-                        const int ExpectedFields = 6; // Nombre;Apellido;Email;Password;ID;Puesto (AJUSTA ESTO SEGÚN TU CLASE CLSEmpleado)
+                        const int ExpectedFields = 7; // Nombre;Apellido;Email;Telefono;Password;DNI;ID
 
                         if (vec.Length < ExpectedFields)
                         {

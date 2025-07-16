@@ -78,6 +78,7 @@ namespace SistemaV5
                 // Si no se encontró ni como cliente ni como empleado
                 MessageBox.Show("Correo o contraseña incorrectos.", "Error de Inicio de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            
 
         }
     }

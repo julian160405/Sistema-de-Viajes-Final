@@ -107,10 +107,6 @@ namespace SistemaV5
             LblTitleChildForm.Text = childForm.Text;
         }
 
-        // private void btnHome_Click(object sender, EventArgs e)
-        //{
-
-        //}
 
         private void BtnHome_Click(object sender, EventArgs e)
         {
@@ -123,14 +119,10 @@ namespace SistemaV5
             // Lógica que querés que pase cuando se hace clic en el botón.
             BotonActivado(sender, RGBColors.color2);
             OpenChildForm(new FormMisReservas(clienteLogueado.ID));
+
         }
 
-        private void BtnMisVuelos_Click(object sender, EventArgs e)
-        {
-            // Lógica que querés que pase cuando se hace clic en el botón.
-            BotonActivado(sender, RGBColors.color3);
-            OpenChildForm(new FormMisVuelos());
-        }
+        
 
         private void BtnReservarVuelo_Click(object sender, EventArgs e)
         {
@@ -142,11 +134,7 @@ namespace SistemaV5
 
         }
 
-        private void BtnCerrarSesion_Click(object sender, EventArgs e)
-        {
-            // Lógica que querés que pase cuando se hace clic en el botón.
-            BotonActivado(sender, RGBColors.color5);
-        }
+
 
         private void BtnInicio_Click(object sender, EventArgs e)
         {
@@ -210,6 +198,14 @@ namespace SistemaV5
 
                 boton.Region = new Region(path);
             }
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+
+            FormLogin nuevoform = new FormLogin();
+            nuevoform.Show();
+            this.Hide();
         }
     }
 }

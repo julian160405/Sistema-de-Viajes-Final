@@ -33,7 +33,6 @@
             btnCerrarSesion = new FontAwesome.Sharp.IconButton();
             btnReservarVuelo = new FontAwesome.Sharp.IconButton();
             btnMisReservas = new FontAwesome.Sharp.IconButton();
-            btnMisVuelos = new FontAwesome.Sharp.IconButton();
             btnHome = new FontAwesome.Sharp.IconButton();
             panel1 = new Panel();
             BtnInicio = new PictureBox();
@@ -58,7 +57,6 @@
             panelMenu.Controls.Add(btnCerrarSesion);
             panelMenu.Controls.Add(btnReservarVuelo);
             panelMenu.Controls.Add(btnMisReservas);
-            panelMenu.Controls.Add(btnMisVuelos);
             panelMenu.Controls.Add(btnHome);
             panelMenu.Controls.Add(panel1);
             panelMenu.Dock = DockStyle.Left;
@@ -84,10 +82,11 @@
             btnCerrarSesion.Padding = new Padding(10, 0, 20, 0);
             btnCerrarSesion.Size = new Size(220, 60);
             btnCerrarSesion.TabIndex = 5;
-            btnCerrarSesion.Text = "Inicio";
+            btnCerrarSesion.Text = "Cerrar Sesion";
             btnCerrarSesion.TextAlign = ContentAlignment.MiddleLeft;
             btnCerrarSesion.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnCerrarSesion.UseVisualStyleBackColor = true;
+            btnCerrarSesion.Click += btnCerrarSesion_Click;
             // 
             // btnReservarVuelo
             // 
@@ -100,7 +99,7 @@
             btnReservarVuelo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnReservarVuelo.IconSize = 32;
             btnReservarVuelo.ImageAlign = ContentAlignment.MiddleLeft;
-            btnReservarVuelo.Location = new Point(0, 320);
+            btnReservarVuelo.Location = new Point(0, 260);
             btnReservarVuelo.Name = "btnReservarVuelo";
             btnReservarVuelo.Padding = new Padding(10, 0, 20, 0);
             btnReservarVuelo.Size = new Size(220, 60);
@@ -122,7 +121,7 @@
             btnMisReservas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnMisReservas.IconSize = 32;
             btnMisReservas.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMisReservas.Location = new Point(0, 260);
+            btnMisReservas.Location = new Point(0, 200);
             btnMisReservas.Name = "btnMisReservas";
             btnMisReservas.Padding = new Padding(10, 0, 20, 0);
             btnMisReservas.Size = new Size(220, 60);
@@ -132,28 +131,6 @@
             btnMisReservas.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnMisReservas.UseVisualStyleBackColor = true;
             btnMisReservas.Click += BtnMisReservas_Click;
-            // 
-            // btnMisVuelos
-            // 
-            btnMisVuelos.Dock = DockStyle.Top;
-            btnMisVuelos.FlatAppearance.BorderSize = 0;
-            btnMisVuelos.FlatStyle = FlatStyle.Flat;
-            btnMisVuelos.ForeColor = Color.White;
-            btnMisVuelos.IconChar = FontAwesome.Sharp.IconChar.Avianex;
-            btnMisVuelos.IconColor = Color.White;
-            btnMisVuelos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnMisVuelos.IconSize = 32;
-            btnMisVuelos.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMisVuelos.Location = new Point(0, 200);
-            btnMisVuelos.Name = "btnMisVuelos";
-            btnMisVuelos.Padding = new Padding(10, 0, 20, 0);
-            btnMisVuelos.Size = new Size(220, 60);
-            btnMisVuelos.TabIndex = 2;
-            btnMisVuelos.Text = "Mis Vuelos";
-            btnMisVuelos.TextAlign = ContentAlignment.MiddleLeft;
-            btnMisVuelos.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnMisVuelos.UseVisualStyleBackColor = true;
-            btnMisVuelos.Click += BtnMisVuelos_Click;
             // 
             // btnHome
             // 
@@ -328,7 +305,6 @@
         private FontAwesome.Sharp.IconButton btnCerrarSesion;
         private FontAwesome.Sharp.IconButton btnReservarVuelo;
         private FontAwesome.Sharp.IconButton btnMisReservas;
-        private FontAwesome.Sharp.IconButton btnMisVuelos;
         private Panel panel1;
         private PictureBox BtnInicio;
         private Panel panelTitleBar;

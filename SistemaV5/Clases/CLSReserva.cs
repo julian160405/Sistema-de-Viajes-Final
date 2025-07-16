@@ -47,9 +47,9 @@ namespace sistemaDeViajesV3.Clases
             return $"{IdReserva};{IdCliente};{IdViaje};{AsientosSeleccionados};{CantidadAdultos};{CantidadNinios};{Estado};{FechaReserva:yyyy-MM-dd};{ImporteTotal}";
         }
 
-        public static CLSReserva FromString(string linea)
+        public  CLSReserva FromString(string linea) 
         {
-            string[] partes = linea.Split(';');
+            string[] partes = linea.Split(',');
             return new CLSReserva
             {
                 IdReserva = int.Parse(partes[0]),
@@ -58,9 +58,9 @@ namespace sistemaDeViajesV3.Clases
                 AsientosSeleccionados = int.Parse(partes[3]),
                 CantidadAdultos = int.Parse(partes[4]),
                 CantidadNinios = int.Parse(partes[5]),
-                Estado = int.Parse(partes[6]),
+                ImporteTotal = int.Parse(partes[6]),
                 FechaReserva = DateTime.Parse(partes[7]),
-                ImporteTotal = int.Parse(partes[8])
+                Estado = int.Parse(partes[8])
             };
         }
     }
