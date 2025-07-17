@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuEmpleado));
             btnReservasClientes = new FontAwesome.Sharp.IconButton();
             panelMenu = new Panel();
@@ -245,11 +246,58 @@
             PanelDesktop.Name = "PanelDesktop";
             PanelDesktop.Size = new Size(698, 513);
             PanelDesktop.TabIndex = 6;
+=======
+            btnABMClientes = new FontAwesome.Sharp.IconButton();
+            btnReservasClientes = new FontAwesome.Sharp.IconButton();
+            btnRegistrarViaje = new FontAwesome.Sharp.IconButton();
+            SuspendLayout();
+            // 
+            // btnABMClientes
+            // 
+            btnABMClientes.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnABMClientes.IconColor = Color.Black;
+            btnABMClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnABMClientes.Location = new Point(52, 69);
+            btnABMClientes.Name = "btnABMClientes";
+            btnABMClientes.Size = new Size(158, 23);
+            btnABMClientes.TabIndex = 0;
+            btnABMClientes.Text = "Clientes";
+            btnABMClientes.UseVisualStyleBackColor = true;
+            btnABMClientes.Click += btnABMClientes_Click;
+            // 
+            // btnReservasClientes
+            // 
+            btnReservasClientes.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnReservasClientes.IconColor = Color.Black;
+            btnReservasClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnReservasClientes.Location = new Point(55, 161);
+            btnReservasClientes.Name = "btnReservasClientes";
+            btnReservasClientes.Size = new Size(155, 23);
+            btnReservasClientes.TabIndex = 1;
+            btnReservasClientes.Text = "Reservas Clientes";
+            btnReservasClientes.TextAlign = ContentAlignment.TopCenter;
+            btnReservasClientes.UseVisualStyleBackColor = true;
+            btnReservasClientes.Click += btnReservasClientes_Click;
+            // 
+            // btnRegistrarViaje
+            // 
+            btnRegistrarViaje.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnRegistrarViaje.IconColor = Color.Black;
+            btnRegistrarViaje.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnRegistrarViaje.Location = new Point(53, 254);
+            btnRegistrarViaje.Name = "btnRegistrarViaje";
+            btnRegistrarViaje.Size = new Size(157, 23);
+            btnRegistrarViaje.TabIndex = 2;
+            btnRegistrarViaje.Text = "Registrar  Viaje";
+            btnRegistrarViaje.UseVisualStyleBackColor = true;
+            btnRegistrarViaje.Click += btnRegistrarViaje_Click;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             // 
             // FormMenuEmpleado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             ClientSize = new Size(918, 602);
             Controls.Add(PanelDesktop);
             Controls.Add(panel3);
@@ -264,10 +312,19 @@
             ((System.ComponentModel.ISupportInitialize)BtnClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)BtnAgrandar).EndInit();
             ((System.ComponentModel.ISupportInitialize)BtnMinimizar).EndInit();
+=======
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnRegistrarViaje);
+            Controls.Add(btnReservasClientes);
+            Controls.Add(btnABMClientes);
+            Name = "FormMenuEmpleado";
+            Text = "FormMenuClientes";
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             ResumeLayout(false);
         }
 
         #endregion
+<<<<<<< HEAD
         private FontAwesome.Sharp.IconButton btnReservasClientes;
         private Panel panelMenu;
         private Panel panel2;
@@ -281,5 +338,11 @@
         private FontAwesome.Sharp.IconPictureBox BtnClose;
         private FontAwesome.Sharp.IconButton btnRegistrarViaje;
         private FontAwesome.Sharp.IconButton btnABMClientes;
+=======
+
+        private FontAwesome.Sharp.IconButton btnABMClientes;
+        private FontAwesome.Sharp.IconButton btnReservasClientes;
+        private FontAwesome.Sharp.IconButton btnRegistrarViaje;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
 }

@@ -80,6 +80,7 @@ namespace SistemaV5
             txtIdClienteBuscar.Clear(); // Limpia el campo de búsqueda
             CargarTodasLasReservas(); // Vuelve a cargar todas las reservas
         }
+<<<<<<< HEAD
 
         private void BtnCancelarReserva_Click(object sender, EventArgs e)
         {
@@ -127,5 +128,7 @@ namespace SistemaV5
            {
 
            }*/
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
 }

@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Julián\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Julián\\.nuget\\packages"
+=======
+      "C:\\Users\\Usuario\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Usuario\\.nuget\\packages"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

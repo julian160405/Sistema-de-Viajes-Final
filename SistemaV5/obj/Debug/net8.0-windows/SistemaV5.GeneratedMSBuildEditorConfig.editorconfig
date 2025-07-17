@@ -14,6 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaV5
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\
+=======
+build_property.ProjectDir = C:\Users\Usuario\Source\Repos\Sistema-de-Viajes-Final\SistemaV5\
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

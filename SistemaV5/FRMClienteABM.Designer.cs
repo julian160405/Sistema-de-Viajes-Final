@@ -53,19 +53,28 @@
             // label1
             // 
             label1.AutoSize = true;
+<<<<<<< HEAD
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(17, 16);
             label1.Name = "label1";
             label1.Size = new Size(53, 15);
+=======
+            label1.Location = new Point(17, 16);
+            label1.Name = "label1";
+            label1.Size = new Size(51, 15);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label1.TabIndex = 0;
             label1.Text = "Nombre";
             // 
             // label2
             // 
             label2.AutoSize = true;
+<<<<<<< HEAD
             label2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label2.ForeColor = Color.White;
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label2.Location = new Point(17, 77);
             label2.Name = "label2";
             label2.Size = new Size(51, 15);
@@ -75,8 +84,11 @@
             // label3
             // 
             label3.AutoSize = true;
+<<<<<<< HEAD
             label3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label3.ForeColor = Color.White;
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label3.Location = new Point(17, 138);
             label3.Name = "label3";
             label3.Size = new Size(30, 15);
@@ -86,19 +98,28 @@
             // label4
             // 
             label4.AutoSize = true;
+<<<<<<< HEAD
             label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label4.ForeColor = Color.White;
             label4.Location = new Point(17, 199);
             label4.Name = "label4";
             label4.Size = new Size(53, 15);
+=======
+            label4.Location = new Point(17, 199);
+            label4.Name = "label4";
+            label4.Size = new Size(52, 15);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label4.TabIndex = 3;
             label4.Text = "Teléfono";
             // 
             // label5
             // 
             label5.AutoSize = true;
+<<<<<<< HEAD
             label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label5.ForeColor = Color.White;
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label5.Location = new Point(17, 260);
             label5.Name = "label5";
             label5.Size = new Size(57, 15);
@@ -108,22 +129,34 @@
             // label6
             // 
             label6.AutoSize = true;
+<<<<<<< HEAD
             label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label6.ForeColor = Color.White;
             label6.Location = new Point(17, 321);
             label6.Name = "label6";
             label6.Size = new Size(29, 15);
+=======
+            label6.Location = new Point(17, 321);
+            label6.Name = "label6";
+            label6.Size = new Size(27, 15);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label6.TabIndex = 5;
             label6.Text = "DNI";
             // 
             // label7
             // 
             label7.AutoSize = true;
+<<<<<<< HEAD
             label7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label7.ForeColor = Color.White;
             label7.Location = new Point(12, 378);
             label7.Name = "label7";
             label7.Size = new Size(59, 15);
+=======
+            label7.Location = new Point(12, 378);
+            label7.Name = "label7";
+            label7.Size = new Size(58, 15);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label7.TabIndex = 6;
             label7.Text = "ID Cliente";
             // 
@@ -181,12 +214,17 @@
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvClientes.Location = new Point(229, 16);
             dgvClientes.Name = "dgvClientes";
+<<<<<<< HEAD
             dgvClientes.Size = new Size(406, 377);
+=======
+            dgvClientes.Size = new Size(545, 377);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             dgvClientes.TabIndex = 14;
             dgvClientes.CellClick += dgvClientes_CellClick;
             // 
             // btnRegistrarCliente
             // 
+<<<<<<< HEAD
             btnRegistrarCliente.BackColor = Color.FromArgb(108, 60, 152);
             btnRegistrarCliente.FlatStyle = FlatStyle.Flat;
             btnRegistrarCliente.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -200,10 +238,22 @@
             btnRegistrarCliente.TabIndex = 15;
             btnRegistrarCliente.Text = "Registrar";
             btnRegistrarCliente.UseVisualStyleBackColor = false;
+=======
+            btnRegistrarCliente.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnRegistrarCliente.IconColor = Color.Black;
+            btnRegistrarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnRegistrarCliente.Location = new Point(229, 415);
+            btnRegistrarCliente.Name = "btnRegistrarCliente";
+            btnRegistrarCliente.Size = new Size(75, 23);
+            btnRegistrarCliente.TabIndex = 15;
+            btnRegistrarCliente.Text = "Registrar";
+            btnRegistrarCliente.UseVisualStyleBackColor = true;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             btnRegistrarCliente.Click += btnRegistrarCliente_Click;
             // 
             // btnEliminarCliente
             // 
+<<<<<<< HEAD
             btnEliminarCliente.BackColor = Color.FromArgb(108, 60, 152);
             btnEliminarCliente.FlatStyle = FlatStyle.Flat;
             btnEliminarCliente.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -217,10 +267,22 @@
             btnEliminarCliente.TabIndex = 16;
             btnEliminarCliente.Text = "Eliminar";
             btnEliminarCliente.UseVisualStyleBackColor = false;
+=======
+            btnEliminarCliente.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnEliminarCliente.IconColor = Color.Black;
+            btnEliminarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnEliminarCliente.Location = new Point(328, 415);
+            btnEliminarCliente.Name = "btnEliminarCliente";
+            btnEliminarCliente.Size = new Size(75, 23);
+            btnEliminarCliente.TabIndex = 16;
+            btnEliminarCliente.Text = "Eliminar";
+            btnEliminarCliente.UseVisualStyleBackColor = true;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             btnEliminarCliente.Click += btnEliminarCliente_Click;
             // 
             // btnModificarCliente
             // 
+<<<<<<< HEAD
             btnModificarCliente.BackColor = Color.FromArgb(108, 60, 152);
             btnModificarCliente.FlatStyle = FlatStyle.Flat;
             btnModificarCliente.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -234,10 +296,22 @@
             btnModificarCliente.TabIndex = 17;
             btnModificarCliente.Text = "Modificar";
             btnModificarCliente.UseVisualStyleBackColor = false;
+=======
+            btnModificarCliente.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnModificarCliente.IconColor = Color.Black;
+            btnModificarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnModificarCliente.Location = new Point(430, 415);
+            btnModificarCliente.Name = "btnModificarCliente";
+            btnModificarCliente.Size = new Size(75, 23);
+            btnModificarCliente.TabIndex = 17;
+            btnModificarCliente.Text = "Modificar";
+            btnModificarCliente.UseVisualStyleBackColor = true;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             btnModificarCliente.Click += btnModificarCliente_Click;
             // 
             // iconButton1
             // 
+<<<<<<< HEAD
             iconButton1.BackColor = Color.FromArgb(108, 60, 152);
             iconButton1.FlatStyle = FlatStyle.Flat;
             iconButton1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -251,14 +325,29 @@
             iconButton1.TabIndex = 18;
             iconButton1.Text = "Reservar Vuelo";
             iconButton1.UseVisualStyleBackColor = false;
+=======
+            iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconButton1.IconColor = Color.Black;
+            iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton1.Location = new Point(553, 415);
+            iconButton1.Name = "iconButton1";
+            iconButton1.Size = new Size(122, 23);
+            iconButton1.TabIndex = 18;
+            iconButton1.Text = "Reservar Vuelo";
+            iconButton1.UseVisualStyleBackColor = true;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             iconButton1.Click += iconButton1_Click;
             // 
             // FRMClienteABM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             BackColor = Color.FromArgb(34, 33, 74);
             ClientSize = new Size(682, 474);
+=======
+            ClientSize = new Size(800, 450);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             Controls.Add(iconButton1);
             Controls.Add(btnModificarCliente);
             Controls.Add(btnEliminarCliente);

@@ -81,6 +81,7 @@ namespace SistemaV5
             
 
         }
+<<<<<<< HEAD
 
         private void BtnClose_Click(object sender, EventArgs e)
         {
@@ -94,5 +95,7 @@ namespace SistemaV5
             WindowState = FormWindowState.Minimized;
         }
 
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
 }

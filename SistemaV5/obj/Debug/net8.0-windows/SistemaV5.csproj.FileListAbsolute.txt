@@ -53,6 +53,7 @@ C:\Users\Usuario\Source\Repos\Sistema-de-Viajes-Final\SistemaV5\bin\Debug\net8.0
 C:\Users\Usuario\Source\Repos\Sistema-de-Viajes-Final\SistemaV5\obj\Debug\net8.0-windows\SistemaV5.csproj.Up2Date
 C:\Users\Usuario\Source\Repos\Sistema-de-Viajes-Final\SistemaV5\obj\Debug\net8.0-windows\SistemaV5.genruntimeconfig.cache
 C:\Users\Usuario\Source\Repos\Sistema-de-Viajes-Final\SistemaV5\obj\Debug\net8.0-windows\ref\SistemaV5.dll
+<<<<<<< HEAD
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\bin\Debug\net8.0-windows\SistemaV5.exe
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\bin\Debug\net8.0-windows\SistemaV5.deps.json
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\bin\Debug\net8.0-windows\SistemaV5.runtimeconfig.json
@@ -80,3 +81,5 @@ C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\obj\Debug
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\obj\Debug\net8.0-windows\SistemaV5.pdb
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\obj\Debug\net8.0-windows\SistemaV5.genruntimeconfig.cache
 C:\Users\Julián\source\repos\Sistema-de-Viajes-Final-master\SistemaV5\obj\Debug\net8.0-windows\ref\SistemaV5.dll
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd

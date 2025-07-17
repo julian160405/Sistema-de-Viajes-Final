@@ -121,7 +121,11 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABUsAAAWtCAYAAADbPAGQAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+<<<<<<< HEAD
         vwAADr8BOAVTJAAA/7JJREFUeF7snQfYJEd1rn8hJBDYYMBgG7i2rwPY3IvB1wSbYBDZBkzOOWcJSShL
+=======
+        wgAADsIBFShKgAAA/7JJREFUeF7snQfYJEd1rn8hJBDYYMBgG7i2rwPY3IvB1wSbYBDZBkzOOWcJSShL
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         IKGcc0Y5J5QTKOeVVtpV2tVqkzavNue86jvVXTXTPVs1U11dPVPV/3ue5zzfvvVtn66Zf+KZ6u6RKw9a
         nFxx4OJE6JVSYb/sqw4Mw/GwrzowDMfDvurAMBwP+6rTzbecsjR58MqVydP3rUnmTd6QrF25OSEIgiAI
         YjAxcsWBi+QbNIqiKIqiKIqiKBqiXn/MkuTei1ckT9y+Opn11Ppk5eJN8isdQRAEQRA+o72yNEv1hgz7
@@ -1971,7 +1975,11 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABGgAAAEECAYAAAB0hAK2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+<<<<<<< HEAD
         vwAADr8BOAVTJAAA/7JJREFUeF7s/f237WdZHf5//5kqEiGEQ0BCY5uUUrFYAgRom7b0o4nFiEqoJkUC
+=======
+        wgAADsIBFShKgAAA/7JJREFUeF7s/f237WdZHf5//5kqEiGEQ0BCY5uUUrFYAgRom7b0o4nFiEqoJkUC
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         omJorbT4UKRU2ypFjU9Ra1ssrRY/qFC1oY20lUgifETkGUF5lvV9X3Ne83q43/d77b3O3vuck2POGHPM
         tVd+ZwxeY97X+v/tHv73kPj3mc98bvd773zf7pffdN/uR37oV3bf+dKf2t3yd39w9xVf/p27x33J7Uu+
         ZXf10j13tDw+8o/Yj7TOPOGRL9494UuW1Ea+FfmyVV7S8sRH3rlEvc41V7x0d80jS654WemX7Z60dAR/
@@ -4879,7 +4887,11 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABGgAAAEECAYAAAB0hAK2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+<<<<<<< HEAD
         vgAADr4B6kKxwAAA/7JJREFUeF7s/f237WdZHf5//5kqEiGEQ0BCY5uUUrFYAgRom7b0o4nFiEqoJkUC
+=======
+        wQAADsEBuJFr7QAA/7JJREFUeF7s/f237WdZHf5//5kqEiGEQ0BCY5uUUrFYAgRom7b0o4nFiEqoJkUC
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         omJorbT4UKRU2ypFjU9Ra1ssrRY/qFC1oY20lUgifETkGUF5lvV9X3Ne83q43/d77b3O3vuck2POGHPM
         tVd+ZwxeY97X+v/tHv73kPj3mc98bvd773zf7pffdN/uR37oV3bf+dKf2t3yd39w9xVf/p27x33J7Uu+
         ZXf10j13tDw+8o/Yj7TOPOGRL9494UuW1Ea+FfmyVV7S8sRH3rlEvc41V7x0d80jS654WemX7Z60dAR/

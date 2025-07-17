@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Juli\u00E1n\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\",
   "Documents": [
     {
@@ -33,6 +34,37 @@
     {
       "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|c:\\users\\juli\u00E1n\\source\\repos\\sistema-de-viajes-final-master\\sistemav5\\frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|c:\\users\\usuario\\source\\repos\\sistema-de-viajes-final\\sistemav5\\clases\\clsreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:clases\\clsreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|c:\\users\\usuario\\source\\repos\\sistema-de-viajes-final\\sistemav5\\frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\formmenucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:formmenucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|c:\\users\\usuario\\source\\repos\\sistema-de-viajes-final\\sistemav5\\formmenucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:formmenucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\formreservarvuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:formreservarvuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:frmreservasclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|c:\\users\\usuario\\source\\repos\\sistema-de-viajes-final\\sistemav5\\clases\\archivoreservasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DC9E8-50C8-4D3F-B4FE-6402FA14A2DC}|SistemaV5.csproj|solutionrelative:clases\\archivoreservasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +83,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "FormButacas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Juli\u00E1n\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\FormButacas.cs",
               "RelativeDocumentMoniker": "FormButacas.cs",
@@ -71,11 +104,58 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T03:58:42.827Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+              "Title": "CLSReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\Clases\\CLSReserva.cs",
+              "RelativeDocumentMoniker": "Clases\\CLSReserva.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\Clases\\CLSReserva.cs",
+              "RelativeToolTip": "Clases\\CLSReserva.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:34:08.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FRMReservasClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FRMReservasClientes.cs",
+              "RelativeDocumentMoniker": "FRMReservasClientes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FRMReservasClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FRMReservasClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:29:28.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormReservarVuelo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormReservarVuelo.cs",
+              "RelativeDocumentMoniker": "FormReservarVuelo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormReservarVuelo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormReservarVuelo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:29:26.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMenuCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormMenuCliente.cs",
+              "RelativeDocumentMoniker": "FormMenuCliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormMenuCliente.cs",
+              "RelativeToolTip": "FormMenuCliente.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAkwHwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:26:05.889Z",
+              "EditorCaption": ""
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FormMenuCliente.cs [Dise\u00F1o]",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Juli\u00E1n\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\FormMenuCliente.cs",
               "RelativeDocumentMoniker": "FormMenuCliente.cs",
               "ToolTip": "C:\\Users\\Juli\u00E1n\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\FormMenuCliente.cs [Dise\u00F1o]",
@@ -119,10 +199,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T03:58:38.446Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormMenuCliente.cs",
+              "RelativeDocumentMoniker": "FormMenuCliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FormMenuCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormMenuCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:25:27.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FRMReservasClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FRMReservasClientes.cs",
+              "RelativeDocumentMoniker": "FRMReservasClientes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\FRMReservasClientes.cs",
+              "RelativeToolTip": "FRMReservasClientes.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAvwCIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:20:29.785Z"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "FRMClienteABM.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Juli\u00E1n\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\FRMClienteABM.cs",
               "RelativeDocumentMoniker": "FRMClienteABM.cs",
@@ -143,6 +244,16 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T03:51:05.303Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+              "Title": "ArchivoReservasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\Clases\\ArchivoReservasRepositorio.cs",
+              "RelativeDocumentMoniker": "Clases\\ArchivoReservasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Sistema-de-Viajes-Final\\SistemaV5\\Clases\\ArchivoReservasRepositorio.cs",
+              "RelativeToolTip": "Clases\\ArchivoReservasRepositorio.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:18:44.21Z"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             }
           ]
         }

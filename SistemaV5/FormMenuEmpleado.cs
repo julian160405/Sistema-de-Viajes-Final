@@ -1,22 +1,39 @@
+<<<<<<< HEAD
 ﻿using FontAwesome.Sharp;
 using sistemaDeViajesV3.Clases;
 using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
+=======
+﻿using sistemaDeViajesV3.Clases;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
 using System.Windows.Forms;
 
 namespace SistemaV5
 {
     public partial class FormMenuEmpleado : Form
     {
+<<<<<<< HEAD
         private CLSEmpleado empleadoLogueado;
         private IconButton currentBtn;
         private Panel leftBorderBtn;
+=======
+        private CLSEmpleado empleadologueado;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         private Form currentChildForm;
 
         public FormMenuEmpleado(CLSEmpleado empleado)
         {
             InitializeComponent();
+<<<<<<< HEAD
             empleadoLogueado = empleado;
 
             leftBorderBtn = new Panel();
@@ -95,16 +112,33 @@ namespace SistemaV5
         {
             BotonActivado(sender, RGBColors.color2);
             OpenChildForm(new FRMClienteABM());
+=======
+            empleadologueado = empleado;
+        }
+
+        private void btnABMClientes_Click(object sender, EventArgs e)
+        {
+            FRMClienteABM nuevoform = new FRMClienteABM();
+            nuevoform.Show();
+            this.Hide();
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         }
 
         private void btnReservasClientes_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             BotonActivado(sender, RGBColors.color4);
             OpenChildForm(new FRMReservasClientes());
+=======
+            FRMReservasClientes nuevoform = new FRMReservasClientes();
+            nuevoform.Show();
+            this.Hide();
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         }
 
         private void btnRegistrarViaje_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             FormLogin login = new FormLogin();
             login.Show();
             this.Close();
@@ -144,6 +178,9 @@ namespace SistemaV5
         private void BtnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+=======
+
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         }
     }
 }

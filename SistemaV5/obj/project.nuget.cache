@@ -1,10 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "wykKHYECKLU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Julián\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\SistemaV5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Julián\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512"
+=======
+  "dgSpecHash": "DRp6miFGy7I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\Sistema-de-Viajes-Final\\SistemaV5\\SistemaV5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
   ],
   "logs": []
 }

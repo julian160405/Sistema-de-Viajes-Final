@@ -38,16 +38,22 @@
             BtnIniciarSesion = new FontAwesome.Sharp.IconButton();
             txtPassword = new TextBox();
             txtCorreo = new TextBox();
+<<<<<<< HEAD
             BtnMinimizar = new FontAwesome.Sharp.IconPictureBox();
             BtnClose = new FontAwesome.Sharp.IconPictureBox();
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox3).BeginInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)BtnMinimizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BtnClose).BeginInit();
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             SuspendLayout();
             // 
             // pictureBox1
@@ -140,7 +146,11 @@
             BtnIniciarSesion.Text = "Iniciar Sesión";
             BtnIniciarSesion.TextImageRelation = TextImageRelation.ImageBeforeText;
             BtnIniciarSesion.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             BtnIniciarSesion.Click += BtnIniciarSesion_Click;
+=======
+            BtnIniciarSesion.Click += this.BtnIniciarSesion_Click;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             // 
             // txtPassword
             // 
@@ -156,6 +166,7 @@
             txtCorreo.Size = new Size(234, 23);
             txtCorreo.TabIndex = 8;
             // 
+<<<<<<< HEAD
             // BtnMinimizar
             // 
             BtnMinimizar.BackColor = Color.White;
@@ -186,14 +197,19 @@
             BtnClose.TabStop = false;
             BtnClose.Click += BtnClose_Click;
             // 
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             // FormLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1051, 514);
+<<<<<<< HEAD
             Controls.Add(BtnClose);
             Controls.Add(BtnMinimizar);
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             Controls.Add(txtCorreo);
             Controls.Add(txtPassword);
             Controls.Add(BtnIniciarSesion);
@@ -213,8 +229,11 @@
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox3).EndInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)BtnMinimizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)BtnClose).EndInit();
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             ResumeLayout(false);
             PerformLayout();
         }
@@ -230,7 +249,10 @@
         private FontAwesome.Sharp.IconButton BtnIniciarSesion;
         private TextBox txtPassword;
         private TextBox txtCorreo;
+<<<<<<< HEAD
         private FontAwesome.Sharp.IconPictureBox BtnMinimizar;
         private FontAwesome.Sharp.IconPictureBox BtnClose;
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
 }

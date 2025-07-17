@@ -41,11 +41,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Julián\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Julián\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\SistemaV5.csproj",
       "projectName": "SistemaV5",
       "projectPath": "C:\\Users\\Julián\\source\\repos\\Sistema-de-Viajes-Final-master\\SistemaV5\\SistemaV5.csproj",
@@ -54,6 +59,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Julián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Sistema-de-Viajes-Final\\SistemaV5\\SistemaV5.csproj",
+      "projectName": "SistemaV5",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sistema-de-Viajes-Final\\SistemaV5\\SistemaV5.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\Sistema-de-Viajes-Final\\SistemaV5\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -109,7 +124,11 @@
             "privateAssets": "none"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
       }
     }
   }

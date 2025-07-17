@@ -33,17 +33,24 @@
             btnBuscarReservas = new FontAwesome.Sharp.IconButton();
             dgvReservas = new DataGridView();
             btnMostrarReservas = new FontAwesome.Sharp.IconButton();
+<<<<<<< HEAD
             dtpFechaCancelacion = new DateTimePicker();
             BtnCancelarReserva = new FontAwesome.Sharp.IconButton();
             label2 = new Label();
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             ((System.ComponentModel.ISupportInitialize)dgvReservas).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+<<<<<<< HEAD
             label1.ForeColor = Color.White;
             label1.Location = new Point(37, 47);
+=======
+            label1.Location = new Point(12, 56);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             label1.Name = "label1";
             label1.Size = new Size(58, 15);
             label1.TabIndex = 0;
@@ -51,13 +58,20 @@
             // 
             // txtIdClienteBuscar
             // 
+<<<<<<< HEAD
             txtIdClienteBuscar.Location = new Point(101, 47);
             txtIdClienteBuscar.Name = "txtIdClienteBuscar";
             txtIdClienteBuscar.Size = new Size(125, 23);
+=======
+            txtIdClienteBuscar.Location = new Point(76, 56);
+            txtIdClienteBuscar.Name = "txtIdClienteBuscar";
+            txtIdClienteBuscar.Size = new Size(100, 23);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             txtIdClienteBuscar.TabIndex = 1;
             // 
             // btnBuscarReservas
             // 
+<<<<<<< HEAD
             btnBuscarReservas.BackColor = Color.FromArgb(108, 60, 152);
             btnBuscarReservas.FlatStyle = FlatStyle.Flat;
             btnBuscarReservas.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -71,18 +85,36 @@
             btnBuscarReservas.TabIndex = 2;
             btnBuscarReservas.Text = "Buscar Reservas";
             btnBuscarReservas.UseVisualStyleBackColor = false;
+=======
+            btnBuscarReservas.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnBuscarReservas.IconColor = Color.Black;
+            btnBuscarReservas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnBuscarReservas.Location = new Point(57, 124);
+            btnBuscarReservas.Name = "btnBuscarReservas";
+            btnBuscarReservas.Size = new Size(119, 23);
+            btnBuscarReservas.TabIndex = 2;
+            btnBuscarReservas.Text = "Buscar Reservas";
+            btnBuscarReservas.UseVisualStyleBackColor = true;
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             btnBuscarReservas.Click += btnBuscarReservas_Click;
             // 
             // dgvReservas
             // 
             dgvReservas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             dgvReservas.Location = new Point(37, 120);
             dgvReservas.Name = "dgvReservas";
             dgvReservas.Size = new Size(608, 315);
+=======
+            dgvReservas.Location = new Point(247, 56);
+            dgvReservas.Name = "dgvReservas";
+            dgvReservas.Size = new Size(487, 278);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             dgvReservas.TabIndex = 3;
             // 
             // btnMostrarReservas
             // 
+<<<<<<< HEAD
             btnMostrarReservas.BackColor = Color.FromArgb(108, 60, 152);
             btnMostrarReservas.FlatStyle = FlatStyle.Flat;
             btnMostrarReservas.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -132,15 +164,32 @@
             label2.TabIndex = 7;
             label2.Text = "Fecha de Cancelación";
             // 
+=======
+            btnMostrarReservas.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnMostrarReservas.IconColor = Color.Black;
+            btnMostrarReservas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnMostrarReservas.Location = new Point(39, 187);
+            btnMostrarReservas.Name = "btnMostrarReservas";
+            btnMostrarReservas.Size = new Size(162, 23);
+            btnMostrarReservas.TabIndex = 4;
+            btnMostrarReservas.Text = "Mostrar Todas las Reservas";
+            btnMostrarReservas.UseVisualStyleBackColor = true;
+            btnMostrarReservas.Click += btnMostrarReservas_Click;
+            // 
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             // FRMReservasClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             BackColor = Color.FromArgb(34, 33, 74);
             ClientSize = new Size(682, 498);
             Controls.Add(label2);
             Controls.Add(BtnCancelarReserva);
             Controls.Add(dtpFechaCancelacion);
+=======
+            ClientSize = new Size(800, 450);
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
             Controls.Add(btnMostrarReservas);
             Controls.Add(dgvReservas);
             Controls.Add(btnBuscarReservas);
@@ -160,8 +209,11 @@
         private FontAwesome.Sharp.IconButton btnBuscarReservas;
         private DataGridView dgvReservas;
         private FontAwesome.Sharp.IconButton btnMostrarReservas;
+<<<<<<< HEAD
         private DateTimePicker dtpFechaCancelacion;
         private FontAwesome.Sharp.IconButton BtnCancelarReserva;
         private Label label2;
+=======
+>>>>>>> bbd6c928afeb8b4a837eeca7a8ca047abcff98dd
     }
 }
