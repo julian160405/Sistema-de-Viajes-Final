@@ -1,0 +1,5 @@
+nombre;apellido;mail;telefono;password;dni;id
+Juan;Perez;juan@gmail.com;11456787;1234;45234789;1
+Julio;Suarez;julio@gmail.com;1123456789;pedro;67555432;2
+Romeo;Santos;romeo@gmail.com;1109876543;romeo;43890765;3
+Rodrigo;Bueno;rodrigo@gmail.com;1123456789;rodri;57666543;4

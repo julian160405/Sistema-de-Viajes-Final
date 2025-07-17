@@ -1,0 +1,3 @@
+nombre;apellido;mail;telefono;password;dni;id
+Juan;Perez;empleado@gmail.com;11456787;1234;45234789;1
+Lautaro;Vergara;lau@gmail.com;1123456789;321;46321456;2
